@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .field {
+            border: 1px solid black;
+            background-color: green;
+            width: 1200px;
+            margin-left: 80px;
+            height: 300px;
+        }
+
+        .field:hover .bat {
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+
+        .bat {
+            transition: transform 0.2s ease-in;
+        }
+
+        .ball {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            position: relative;
+            left: 134px;
+            transition: transform 1s ease-out 0.2s;
+        }
+
+        .field:hover .ball {
+            transform: translate(780px, -200px)
+        }
+
+        .pitch {
+            height: 180px;
+            width: 1200px;
+            margin-left: 80px;
+            border: 1px solid black;
+            background-color: saddlebrown;
+        }
+
+        .center-allainment {
+            text-align: center;
+        }
+
+        .umpire {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            left: 200px;
+            visibility: hidden;
+            transition: visibility 0.2s ease-out 1s
+        }
+
+        .field:hover .umpire {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="field">
+        <img class="bat" src="images/cricket-bat_ccexpress.png" alt="Cricket Bat">
+        <img class="ball" src="images/cricket-ball_ccexpress.png" alt="Cricket Ball">
+        <img class="umpire" src="images/umpire_ccexpress.png" alt="Umpire giving signal">
+    </div>
+    <div class="pitch"></div>
+    <h1 class="center-allainment">Cricket Match</h1>
+    <h3 class="center-allainment">Move your cursor to green field area</h3>
+</body>
+
+</html>

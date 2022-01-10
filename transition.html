@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box,
+        .box2 {
+            height: 100px;
+            width: 100px;
+            border: 2px solid cadetblue;
+            background-color: coral;
+        }
+
+        .box {
+            transition: height 5s linear 1s, width 5s ease-in-out 1s, transform 5s ease 1s;
+        }
+
+        .box2 {
+            transition: height 1s, width 1s, transform 1s;
+        }
+
+        .box:hover,
+        .box2:hover {
+            height: 200px;
+            width: 200px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation using Transition and Transform</h1>
+    <div class="box">
+        <h3>Transition-1</h3>
+    </div>
+    <div class="box2">
+        <h3>Transition-2</h3>
+    </div>
+    <div class="box2">
+        <h3>Transition-3</h3>
+    </div>
+    <div class="box2">
+        <h3>Transition-4</h3>
+    </div>
+</body>
+
+</html>

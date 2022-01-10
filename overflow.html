@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .mini-box {
+            width: 500px;
+            margin: 10px;
+            padding: 5px;
+            border: 3px solid magenta;
+        }
+
+        .short-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .normal-box {
+            height: 450px;
+            width: 500px;
+            margin: 10px;
+            padding: 5px;
+            border: 3px solid blue;
+        }
+
+        .mega-box {
+            height: 450px;
+            width: 500px;
+            margin: 10px;
+            padding: 5px;
+            border: 3px solid red;
+            overflow-y: scroll;
+        }
+
+        .mega-box2 {
+            height: 450px;
+            width: 500px;
+            margin: 10px;
+            padding: 5px;
+            border: 3px solid green;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Overflow Management</h1>
+    <div class="mini-box">
+        <p class="short-text" title="Put the mouse pointer over the text to see the full text which is called tooltip but
+        written inside the title tag.">Put the mouse pointer over the text to see the full text which is called tooltip
+            but
+            written inside the title tag.</p>
+    </div>
+    <div class="normal-box">
+        <h3>This is a normal box which doesn't have overflow of texts</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis hic ratione unde necessitatibus.
+            Maxime mollitia quis, atque ullam exercitationem saepe reprehenderit corporis? Ea libero necessitatibus rem
+            odio repellat ad quod eius, ratione culpa dolores natus enim nam recusandae, iure placeat obcaecati, animi
+            ex tempora tenetur. Architecto eius saepe voluptatibus quae, ipsa qui, voluptates asperiores sapiente
+            explicabo odio laborum dolores tempora maiores ullam laudantium atque non, repellendus aliquam. Explicabo,
+            molestiae. Accusamus sed, iste assumenda doloribus cum necessitatibus dolore earum quos aliquid, nesciunt
+            maxime praesentium vel quo impedit sequi voluptatibus nulla inventore laudantium sit sint, eius laboriosam
+            ad quam. Dolorum odio accusantium officia atque eius vel quasi illum amet nihil velit ipsam consectetur aut
+            obcaecati aliquam ut ea, similique dolor dignissimos voluptatem nisi corrupti labore distinctio cumque. Sint
+            earum provident adipisci inventore nemo, iure porro reiciendis dignissimos saepe aperiam impedit
+            exercitationem doloremque, eveniet est voluptates cumque cupiditate eaque temporibus? Eius quis, maiores
+            quisquam fugit voluptates dicta dolores, voluptatem officiis eaque veritatis necessitatibus? Fugit amet
+            voluptatum ab ex nobis corporis ducimus, minima voluptatibus temporibus tempora dignissimos ea porro natus
+            fuga incidunt dolor iusto quibusdam eos tenetur reprehenderit minus, eum repudiandae! Odit facere iste
+            necessitatibus distinctio. Sapiente, quisquam sunt qui nihil corrupti error?</p>
+    </div>
+    <div class="mega-box">
+        <h3>This is a mega box which has overflow of text</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque provident animi atque dolorem non odit
+            eligendi molestiae dolor ducimus ut dolore, magnam eos quod deserunt pariatur distinctio fugit velit
+            reiciendis maxime quam. Maxime omnis nobis consequatur, incidunt assumenda perferendis totam tempore magnam
+            quas ipsum pariatur molestias quae reiciendis libero. Exercitationem, aliquam deleniti. Molestiae minus
+            commodi culpa dicta nobis non iusto quidem, dolore id beatae et totam sit officiis sed similique corrupti
+            distinctio, ipsum error deleniti, consequuntur blanditiis quos nesciunt? Natus consequuntur quo, adipisci
+            aspernatur quis perspiciatis ratione cumque hic, non corporis, temporibus accusantium! Tenetur vel porro
+            itaque a? Minima deserunt nulla, fugiat dolore eligendi sit maiores consectetur, aperiam voluptates
+            excepturi quasi totam blanditiis rerum soluta nisi. Eaque, in corporis! Nostrum molestiae asperiores,
+            aperiam ab obcaecati officia, modi maxime quo commodi nihil voluptatem facere. Perferendis, architecto saepe
+            vitae totam, suscipit enim exercitationem facilis neque repellat est id iste ratione nostrum modi cumque
+            explicabo minima rerum pariatur? Fuga facere rem veniam ut possimus a, rerum, ipsa ullam corrupti quibusdam,
+            recusandae iure architecto sunt ea? Distinctio tempore illum vel at quam maiores rerum neque possimus vero,
+            alias atque nostrum tempora sequi inventore rem totam quaerat, reiciendis voluptatem deserunt fuga eligendi
+            quidem architecto? Id vel quam quidem veritatis consequuntur omnis totam dignissimos et unde, debitis veniam
+            facere odio beatae! Neque, itaque. Quo repellat error aspernatur sint cupiditate nihil recusandae unde
+            explicabo modi reiciendis dolores impedit nulla aut omnis dicta perferendis, corrupti aliquid, quibusdam
+            nesciunt quis necessitatibus. Commodi minus id numquam dolorem aliquid quibusdam dolor quisquam illum
+            consequuntur suscipit. Culpa amet soluta odit blanditiis saepe eius similique eveniet perspiciatis in optio
+            fugit aut rem nihil voluptatem aliquam natus ipsum cupiditate sequi quaerat numquam, reprehenderit
+            laboriosam labore pariatur. Dicta ducimus molestias nisi explicabo repellendus. Delectus tenetur amet, unde
+            sit laudantium quibusdam. Asperiores, soluta ratione enim iusto incidunt tempora assumenda dicta vitae eum
+            inventore amet aut fugiat nihil alias reprehenderit facilis culpa in. Ex, autem doloribus itaque sint dicta
+            cumque repudiandae quia delectus temporibus, voluptates doloremque numquam consequatur mollitia labore
+            tenetur nihil quos molestias obcaecati eius illo totam possimus amet aliquam. Neque eum dolore autem harum
+            qui omnis sunt nulla quis quos dolor vitae reiciendis, eveniet nihil perferendis tempora molestiae! Omnis
+            aperiam, culpa ipsum laborum minus beatae quia! Quibusdam, ipsam? Illo, blanditiis nobis nam nisi provident
+            numquam veniam debitis id! Voluptatem distinctio qui soluta autem mollitia reprehenderit modi, sint alias.
+            Ad facilis esse quos tempora fuga enim nobis maxime laborum tempore nam, corporis doloribus sequi ullam
+            cupiditate! Quasi est architecto molestiae laboriosam voluptatum labore nobis reprehenderit cupiditate quos
+            voluptate mollitia, culpa, pariatur deserunt harum sint incidunt officiis ullam sunt recusandae? Ipsa a,
+            aperiam quam qui aliquam illo dolore quis tempora aut. Officiis expedita iure exercitationem deserunt
+            mollitia minima in sint porro, nisi rem reiciendis maiores? Fugiat ex sit aliquid sunt quod ea laborum eos,
+            ab laboriosam fugit iure animi numquam soluta provident quas porro earum temporibus officiis, voluptates
+            corporis inventore, amet unde! Nobis modi explicabo ad debitis, corrupti, dignissimos laborum, voluptatibus
+            quod possimus sit voluptatem eius porro?</p>
+    </div>
+    <div class="mega-box2">
+        <h3>This is a mega box where overflow of text is hidden</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque provident animi atque dolorem non odit
+            eligendi molestiae dolor ducimus ut dolore, magnam eos quod deserunt pariatur distinctio fugit velit
+            reiciendis maxime quam. Maxime omnis nobis consequatur, incidunt assumenda perferendis totam tempore magnam
+            quas ipsum pariatur molestias quae reiciendis libero. Exercitationem, aliquam deleniti. Molestiae minus
+            commodi culpa dicta nobis non iusto quidem, dolore id beatae et totam sit officiis sed similique corrupti
+            distinctio, ipsum error deleniti, consequuntur blanditiis quos nesciunt? Natus consequuntur quo, adipisci
+            aspernatur quis perspiciatis ratione cumque hic, non corporis, temporibus accusantium! Tenetur vel porro
+            itaque a? Minima deserunt nulla, fugiat dolore eligendi sit maiores consectetur, aperiam voluptates
+            excepturi quasi totam blanditiis rerum soluta nisi. Eaque, in corporis! Nostrum molestiae asperiores,
+            aperiam ab obcaecati officia, modi maxime quo commodi nihil voluptatem facere. Perferendis, architecto saepe
+            vitae totam, suscipit enim exercitationem facilis neque repellat est id iste ratione nostrum modi cumque
+            explicabo minima rerum pariatur? Fuga facere rem veniam ut possimus a, rerum, ipsa ullam corrupti quibusdam,
+            recusandae iure architecto sunt ea? Distinctio tempore illum vel at quam maiores rerum neque possimus vero,
+            alias atque nostrum tempora sequi inventore rem totam quaerat, reiciendis voluptatem deserunt fuga eligendi
+            quidem architecto? Id vel quam quidem veritatis consequuntur omnis totam dignissimos et unde, debitis veniam
+            facere odio beatae! Neque, itaque. Quo repellat error aspernatur sint cupiditate nihil recusandae unde
+            explicabo modi reiciendis dolores impedit nulla aut omnis dicta perferendis, corrupti aliquid, quibusdam
+            nesciunt quis necessitatibus. Commodi minus id numquam dolorem aliquid quibusdam dolor quisquam illum
+            consequuntur suscipit. Culpa amet soluta odit blanditiis saepe eius similique eveniet perspiciatis in optio
+            fugit aut rem nihil voluptatem aliquam natus ipsum cupiditate sequi quaerat numquam, reprehenderit
+            laboriosam labore pariatur. Dicta ducimus molestias nisi explicabo repellendus. Delectus tenetur amet, unde
+            sit laudantium quibusdam. Asperiores, soluta ratione enim iusto incidunt tempora assumenda dicta vitae eum
+            inventore amet aut fugiat nihil alias reprehenderit facilis culpa in. Ex, autem doloribus itaque sint dicta
+            cumque repudiandae quia delectus temporibus, voluptates doloremque numquam consequatur mollitia labore
+            tenetur nihil quos molestias obcaecati eius illo totam possimus amet aliquam. Neque eum dolore autem harum
+            qui omnis sunt nulla quis quos dolor vitae reiciendis, eveniet nihil perferendis tempora molestiae! Omnis
+            aperiam, culpa ipsum laborum minus beatae quia! Quibusdam, ipsam? Illo, blanditiis nobis nam nisi provident
+            numquam veniam debitis id! Voluptatem distinctio qui soluta autem mollitia reprehenderit modi, sint alias.
+            Ad facilis esse quos tempora fuga enim nobis maxime laborum tempore nam, corporis doloribus sequi ullam
+            cupiditate! Quasi est architecto molestiae laboriosam voluptatum labore nobis reprehenderit cupiditate quos
+            voluptate mollitia, culpa, pariatur deserunt harum sint incidunt officiis ullam sunt recusandae? Ipsa a,
+            aperiam quam qui aliquam illo dolore quis tempora aut. Officiis expedita iure exercitationem deserunt
+            mollitia minima in sint porro, nisi rem reiciendis maiores? Fugiat ex sit aliquid sunt quod ea laborum eos,
+            ab laboriosam fugit iure animi numquam soluta provident quas porro earum temporibus officiis, voluptates
+            corporis inventore, amet unde! Nobis modi explicabo ad debitis, corrupti, dignissimos laborum, voluptatibus
+            quod possimus sit voluptatem eius porro?</p>
+    </div>
+</body>
+
+</html>
